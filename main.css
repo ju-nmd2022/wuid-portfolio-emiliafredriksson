@@ -3,13 +3,37 @@ body {
   margin: 0px;
 }
 
+header {
+  background-color: #ff68b4;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.line {
+  text-align: center;
+}
+
 .menu {
   margin: 10px;
+  color: #ffffff;
+  font-family: Georgia;
+}
+
+main {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+footer {
+  background-color: #ff8ec7;
+  margin-top: 50px;
+  padding: 10px;
+  font-family: Georgia;
 }
 
 h1 {
   color: #ff68b4;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia;
 }
 
 h2,
@@ -18,23 +42,7 @@ h4,
 h5,
 h6 {
   color: #ff8ec7;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-/* .logotype {
-  display: flex;
-} */
-
-a {
-}
-
-footer {
-  background-color: #ff8ec7;
-}
-
-.line {
-  background-color: #ff8ec7;
-  text-align: center;
+  font-family: Georgia;
 }
 
 .created {
@@ -48,8 +56,4 @@ footer {
 
 .text {
   margin-left: 30px;
-}
-
-footer {
-  margin-top: 3vh;
 }
