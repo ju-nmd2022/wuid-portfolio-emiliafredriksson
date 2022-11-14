@@ -2,6 +2,7 @@ h1 {
   color: #ff68b4;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 h2,
 h3,
 h4,
@@ -10,23 +11,36 @@ h6 {
   color: #ff8ec7;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 .logotype {
-  float: right;
+  display: flex;
 }
+
+a {
+}
+
 footer {
   background-color: #ff8ec7;
 }
+
 .line {
   background-color: #ff8ec7;
   text-align: center;
 }
+
 .created {
   text-align: right;
   font-size: 10pt;
 }
+
 .flex {
   display: flex;
 }
+
 .text {
   margin-left: 30px;
+}
+
+footer {
+  margin-top: 3vh;
 }
