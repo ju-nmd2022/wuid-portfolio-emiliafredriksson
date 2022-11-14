@@ -1,0 +1,43 @@
+header {
+  height: 15vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.work1 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.work2 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.work3 {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  background-color: aquamarine;
+}
+
+.work4 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.work5 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  background-color: blueviolet;
+}
+
+.stylization {
+  object-fit: contain;
+  width: 100%;
+  padding: 10px;
+}
