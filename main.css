@@ -19,9 +19,42 @@ header {
   font-family: Georgia;
 }
 
+@media screen and (max-width: 700px) {
+  .menu {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    font-size: 10pt;
+  }
+}
+
 main {
   margin-left: 100px;
   margin-right: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  main {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  main {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 }
 
 footer {
