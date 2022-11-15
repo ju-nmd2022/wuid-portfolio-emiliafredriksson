@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  grid-template-areas:
+    "header header header"
+    "work1 text tex"
+    "footer footer footer";
+}
+
+header {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+main {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
