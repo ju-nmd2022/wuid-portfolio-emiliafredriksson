@@ -23,11 +23,23 @@ header {
   .menu {
     font-size: 11pt;
   }
+  .line {
+    font-size: 11pt;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .menu {
     font-size: 10pt;
+  }
+  .line {
+    font-size: 10pt;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .menu {
+    text-align: center;
   }
 }
 
@@ -57,13 +69,6 @@ main {
   }
 }
 
-footer {
-  background-color: #ff8ec7;
-  margin-top: 50px;
-  padding: 10px;
-  font-family: Georgia;
-}
-
 h1 {
   color: #ff68b4;
   font-family: Georgia;
@@ -78,15 +83,62 @@ h6 {
   font-family: Georgia;
 }
 
-.created {
-  text-align: right;
-  font-size: 10pt;
-}
-
 .flex {
   display: flex;
 }
 
+@media screen and (max-width: 600px) {
+  .layout {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .text {
   margin-left: 30px;
+}
+
+@media screen and (max-width: 960px) {
+  .text {
+  }
+}
+
+.layout {
+  width: 100%;
+  height: fit-content;
+}
+
+footer {
+  background-color: #ff8ec7;
+  margin-top: 50px;
+  padding: 10px;
+  font-family: Georgia;
+}
+
+.footertext {
+  color: #ffffff;
+}
+
+.created {
+  color: #ffffff;
+  text-align: right;
+  font-size: 10pt;
+}
+
+@media screen and (max-width: 700px) {
+  .created {
+    font-size: 9pt;
+  }
+  .footertext {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .created {
+    font-size: 8pt;
+  }
+  .footertext {
+    font-size: 10pt;
+  }
 }
