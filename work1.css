@@ -18,6 +18,16 @@ main {
   grid-column-end: 5;
 }
 
+.button {
+  background-color: #ff68b4;
+  outline-style: double;
+  outline-color: #ffffff;
+}
+
+.buttontext {
+  color: #ffffff;
+}
+
 footer {
   grid-column-start: 1;
   grid-column-end: 5;

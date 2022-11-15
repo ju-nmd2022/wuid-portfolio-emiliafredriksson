@@ -35,3 +35,8 @@
   width: 100%;
   padding: 10px;
 }
+
+.stylization:hover {
+  background-color: #ff8ec7;
+  size-adjust: 110%;
+}
