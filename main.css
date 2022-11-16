@@ -38,7 +38,7 @@ header {
 }
 
 @media screen and (max-width: 550px) {
-  .menu {
+  .menuline {
     text-align: center;
   }
 }
