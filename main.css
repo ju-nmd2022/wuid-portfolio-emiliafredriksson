@@ -87,10 +87,21 @@ h6 {
   display: flex;
 }
 
+.layout {
+  width: 100%;
+  height: fit-content;
+}
+
 @media screen and (max-width: 600px) {
   .layout {
     width: 100%;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .flex {
+    display: inline-block;
   }
 }
 
@@ -100,12 +111,8 @@ h6 {
 
 @media screen and (max-width: 960px) {
   .text {
+    margin: 0px;
   }
-}
-
-.layout {
-  width: 100%;
-  height: fit-content;
 }
 
 footer {
@@ -140,5 +147,14 @@ footer {
   }
   .footertext {
     font-size: 10pt;
+  }
+  .text {
+    font-size: 11;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: 10;
   }
 }
