@@ -87,6 +87,42 @@
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .animation {
+    font-size: 35pt;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .animation {
+    font-size: 25pt;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .animation {
+    font-size: 20pt;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .animation {
+    font-size: 18pt;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .animation {
+    font-size: 15pt;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .animation {
+    font-size: 12pt;
+  }
+}
+
 .welcome {
   grid-column-start: 1;
   grid-column-end: 4;
