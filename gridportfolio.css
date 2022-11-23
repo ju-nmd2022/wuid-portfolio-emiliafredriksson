@@ -37,8 +37,31 @@
 }
 
 .stylization:hover {
-  background-color: #ff8ec7;
-  size-adjust: 110%;
+  animation-name: hovereffect;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: none;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+@keyframes hovereffect {
+  0% {
+    background-color: #ff68b4;
+  }
+  25% {
+    background-color: #00ffff;
+  }
+  50% {
+    background-color: #90d18f;
+  }
+  75% {
+    background-color: #00ffff;
+  }
+  100% {
+    background-color: #ff68b4;
+  }
 }
 
 @media screen and (max-width: 600px) {

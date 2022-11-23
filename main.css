@@ -13,6 +13,10 @@ header {
   text-align: center;
 }
 
+.menuline {
+  text-align: right;
+}
+
 .menu {
   margin: 10px;
   color: #ffffff;
@@ -116,7 +120,7 @@ h6 {
 }
 
 footer {
-  background-color: #ff8ec7;
+  background-color: #ff68b4;
   margin-top: 50px;
   padding: 10px;
   font-family: Georgia;
