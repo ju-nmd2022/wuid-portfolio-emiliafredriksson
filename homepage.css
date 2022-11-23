@@ -74,15 +74,21 @@
     transform: scale(0);
   }
   25% {
-    transform: scale(2);
+    transform: scale(1.25);
   }
   50% {
     transform: scale(0.75);
   }
   75% {
-    transform: scale(1.25);
+    transform: scale(1);
   }
   100% {
     transform: scale(1);
   }
+}
+
+.welcome {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
 }
